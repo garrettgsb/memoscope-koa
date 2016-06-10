@@ -36,7 +36,13 @@ const pug = new Pug({
 // END PUG STUFF
 
 router.get('/', function *(){
-  this.body = yield loadStatic(__dirname + '/static_html/index.html');
+  this.render('index');
+  yield;
+});
+
+router.get('/index', function *(next){
+  this.render('index');
+  yield next;
 });
 
 //Rendered with Pug
@@ -69,4 +75,6 @@ koaErrorHandler(app);
 
 app.use(router.routes()).use(router.allowedMethods());
 
-app.listen(3000);
+app.listen(3000, function(){
+  console.log("Server is running, yo!");
+});
