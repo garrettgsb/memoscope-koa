@@ -1,0 +1,25 @@
+{
+  "name": "memoscope",
+  "version": "1.0.0",
+  "description": "LHL Final project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "SRS",
+    "memory",
+    "Lighthouse",
+    "Labs"
+  ],
+  "author": "Garrett Brick, Soheil Hajimohammadi, Jordan Ratanadawong",
+  "license": "ISC",
+  "dependencies": {
+    "bulma": "0.0.28",
+    "koa": "^1.2.0",
+    "koa-error-handler": "0.0.0",
+    "koa-pug": "^3.0.0-0",
+    "koa-router": "^5.4.0",
+    "koa-session": "^3.3.1"
+  }
+}
