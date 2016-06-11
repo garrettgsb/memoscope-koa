@@ -4,9 +4,13 @@
   "description": "LHL Final project",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon ./index.js"
 
+=======
+    "test": "echo \"Error: no test specified\" && exit 1"
+>>>>>>> 287ce88db0774f7b98fb9f59369dac46f5f9434c
   },
   "keywords": [
     "SRS",
@@ -22,7 +26,11 @@
     "koa-error-handler": "0.0.0",
     "koa-pug": "^3.0.0-0",
     "koa-router": "^5.4.0",
+<<<<<<< HEAD
     "koa-session": "^3.3.1",
     "nodemon": "^1.9.2"
+=======
+    "koa-session": "^3.3.1"
+>>>>>>> 287ce88db0774f7b98fb9f59369dac46f5f9434c
   }
 }

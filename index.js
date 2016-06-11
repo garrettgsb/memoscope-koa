@@ -44,10 +44,10 @@ router.get('/dashboard', function *(){
   this.render('dashboard')
 });
 router.get('/cards', function *(){
-  this.body = yield loadStatic(__dirname + '/static_html/cards.html');
+  this.render('cards')
 });
 router.get('/cards/new', function *(){
-  this.body = yield loadStatic(__dirname + '/static_html/cards-new.html');
+  this.render('cards_new')
 });
 router.get('/notification', function *(){
   this.body = yield loadStatic(__dirname + '/static_html/notification.html');
